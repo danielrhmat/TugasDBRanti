@@ -1,0 +1,9 @@
+Membuat tabel meja
+Create table meja (no_meja VARCHAR(10), kapasitas INT(11), id_mitra VARCHAR(10), primary key(no_meja));
+
+Menambahkan data meja
+INSERT INTO meja VALUES ("7", "4", "4567");
+INSERT INTO meja VALUES ("8", "3", "4567");
+
+Melihat data
+SELECT * FROM meja;
