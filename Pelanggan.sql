@@ -11,5 +11,8 @@ insert into pelanggan values ("P303","Ilham Maulana Yusuf","hamyusuf","oppailham
 insert into pelanggan values ("P404","Tasa Amelia","tasamelia","tasaamelia123","tasaamelia20@gmail.com","083870700922");
 
 //Menampilkan Data Pada Tabel Pelanggan
-
 SELECT * FROM pelanggan;
+                          
+//menampilkan data pada kondisi tertentu
+select id_pelanggan, nama, username from pelanggan;
+                          
