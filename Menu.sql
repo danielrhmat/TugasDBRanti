@@ -1,7 +1,3 @@
-
-
-
-
 /*membuat tabel*/
 create table menu (id_menu VARCHAR(20), kategori_menu("Makanan","Minuman"), nama VARCHAR(100), harga VARCHAR(6), keterangan VARCHAR(100),
 id_mitra VARCHAR(6),primary key(id_menu));
